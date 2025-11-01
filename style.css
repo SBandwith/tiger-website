@@ -1,76 +1,201 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Saina</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- link the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   font-family: "Bree Serif", serif;
+   font-style: normal;
+}
 
-    <!-- link the webpage's JavaScript file -->
-    <script src="/script.js" defer></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
 
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</li>
-      <li><a href="about.html">Take Action</a></li>
-    </ul>
-  </nav>
-  <header>
-    <h1 id="title">Tigers need <strong>OUR</strong> help</h1>
+/* STYLE TEXT */
 
-  <div class="flex-container">
-    <div><a href="index.html"><button>Home</button></a></div>
-    <div><a href="about.html"><button>Take Action</button></a></div>
-  </div>
-  </header>
-  <main>
-    <h2>Why are tigers endangered? </h2>
+p{
+   padding-bottom: 1.5em;
+   color:black;
+}
 
-        <p><strong>There are three main reasons: poaching, habitat loss, and lack of effective conservation legislation.</strong><br></br>
+#title{
+   font-size: 7em;
+   padding-bottom: 100px;
+   color:white;
+}
 
-          Due to many individuals calling tiger meat, fur, or even bones exotic, this causes a phenomenon called Tiger Trafficking. First, tigers are killed, hunted, or poached, then they are sent to traffickers, who usually take the parts they need, and finally, sold to the highest bidders at illegal auctions, with fur selling up to 70,000 USD, causing a thriving, illegal trade. This is the biggest reason why tigers are going extinct, and this stereotype of tigers being exotic, ends up killing them the most.<br></br>
 
-          Furthermore, due to rapid industrialization in the regions where tigers are concentrated, this causes habitat loss and fragmentation. Urban development, exploitation for natural resources, and land for agriculture cuts down the forests and jungles where tigers are found, causing tigers to have lost an estimated 95% of their historical range. Climate Change further destroys habitats. This leads to a reduction in the availability of prey, changes in vegetation, and an increase in the frequency and severity of natural disasters such as floods and droughts, harming the ecosystems where tigers call home. Finally, habitat loss leads to increased human-tiger interactions, where humans often kill tigers because they are scared of tigers.<br></br>
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 7em;
+  align-items: center;
+  align-content: flex-start;
+  padding: 2em;
+}
 
-          In the areas where tigers are commonly found, there is a lack of effective legislature protecting them. Although in most places, there are national or international laws governing the protection of tigers, they are not enforced as strongly as they should, causing poachers and other individuals with mal-intent to break them. In South-east Asian countries, the existence of tiger farms is still legal, where captions breed tigers only to use them for their parts. This is horrifying, and needs to stop. <br></br>
-    .</p>
 
-  <div class="flex-box">
-    <div>
-      <img src="assets/tigerrr.png">
-    </div>
-    <div>
-      <img src="assets/white-tiger-2407799_1280.jpg">
-    </div>
-    <div>
-      <img src="assets/amur-tiger-6239027_1280.jpg">
-    </div>
-  </div>
+li {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 0.5em;
+  justify-content: space-between;
+}
 
-  <h2>You can be involved by doing the following...</h2>
-    <ol>
-      <p>Fight Tiger Trafficking: Advocate for stronger laws protecting tigers from illegal wildlife trade. Anti-poaching laws are necessary to protect against rapid population decline.</p>
+footer {
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  background-color:#f7be55;
+}
 
-      <p>Support Conservation Initiatives: Many Non-profits, such as the WWF or local community initiatives need your help! Adopt a tiger!</p>
+ div{
+ color: black;
 
-        <p>Protect Tiger’s Habitats: Although Tigers can live in a wide variety of habitats, the fragmented pieces of land often isolates mature Tigers from breeding, causing a decrease of the tiger population.</p> 
+ }
 
-        <p>Work towards habitat restoration projects: Make a better habitat for tigers, which will in turn help many other species and improve water quality! Work together for less urban sprawl of tiger habitats and measures to prevent pollution into their habitats.</p>
+ h1{
+ text-align: center;
+ }
 
-      <p>Increase Tiger Visibility: Many individuals believe tigers are too powerful to need our help, which is far from the case! Increase outreach and education initiatives about the importance of tigers.</p>
-    </ol>
-  
-  </main>
-  <footer>
-    <p><strong>Reachout to Saina Bhandari to make a difference:       ✉️ bhandarisaina@gmail.com</strong></p>
-  </footer>
+h2{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+}
 
-</body>
-</html>
+main{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+ body{
+
+ background-color: #ffce80;
+ font-family: "Bree Serif", serif;
+ font-style: normal;
+ } 
+
+#qualities{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   border: 50px;
+   border-color: black;
+   border-style: solid;
+   padding-right: 10%;
+   padding-left: 10%;
+   border-block-start-color:orange;
+   border-block-end-color:orange;
+}
+
+header{
+   padding: 2em;
+   margin-bottom: 1.5em;
+   background-image: url(https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-asian-sumatran-tigers/disney-animals-asian-sumatran-tigers-00.jpg?1658996208764);
+
+}
+button{
+   background-color: orange;
+   border-radius: 25px;
+   border: 2px solid black;
+   height: 80px;
+   width: 200px;
+   font-size: 1.25em;
+   margin-bottom: 1em;
+}
+
+button:click{
+  background-color: #b3dfb3;
+}
+
+button:hover{
+   background-color:  #ffce80;
+}
+
+img{
+   height: 240px;
+   width: 320px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+  align-items: center;
+  align-content: flex-start;
+  padding: 2em;
+}
+
+.getFact{
+   margin-top: 2em;
+   margin-bottom: 1em;
+   border: 50px;
+   border-color: orange;
+   border-style: solid;
+   padding-right: 5%;
+   padding-left: 5%;
+   border-block-start-color: black;
+   border-block-end-color: black;
+   text-align: center;
+   justify-content: space-evenly;
+   padding: 1em;
+   margin-left: 1.5em;
+   margin-right: 1.5em;
+}
+
+#fact{
+   padding-top: 1em;
+   padding-bottom: 1em;
+   font-size: 2em;
+}
+
+#share{
+   padding-bottom: 1em;
+   font-size: 1.75em;
+}
+
+#click{
+   font-size: 3em;
+}
+
+#myButton{
+   height: 75px;
+   width: 500px;
+   font-size: 35px;
+   margin-top: 1em;
+   margin-bottom: 0.5em;
+}
+
+ul{
+  list-style-type: none;
+  background-color:orange;
+  overflow: hidden;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center
+}
+
+li{
+   display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+  justify-content: space-between;
+}
+
+li a:hover{
+  background-color: #ffce80 ;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
